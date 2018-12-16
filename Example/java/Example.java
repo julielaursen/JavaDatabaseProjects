@@ -49,7 +49,7 @@ public class Example {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 		String dbUrl = "jdbc:oracle:thin:@localhost:1521:orcl";
 		String user = "SYSTEM";
-		String pass = "ShawneeGold$12";
+		String pass = "xxxxxxx";
 		
 		Connection c = DriverManager.getConnection(dbUrl, user, pass);
 		if (c != null)
